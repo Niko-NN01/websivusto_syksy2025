@@ -6,7 +6,7 @@
 <body>
     <h1>Welcome to my Page</h1>
     <p>This is paragraph.</p>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGmail_icon_%25282020%2529.svg&psig=AOvVaw3nbQoZT_bnDrmqzKhQxTAy&ust=1761206995878000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCgub-tt5ADFQAAAAAdAAAAABAJ" alt="logo">
+    <img src="https://media.istockphoto.com/id/1485810844/fi/video/vanha-tietokone-jossa-on-vihre%C3%A4-kroma-n%C3%A4pp%C3%A4inn%C3%A4ytt%C3%B6-l%C3%A4hikuva-p%C3%B6yt%C3%A4tietokone-retro-huone.jpg?s=640x640&k=20&c=aUIXxrZIB22ie7q2z92iMWImRi31ZgQ_LD2nKvBVk4g=" alt="logo">
 </body>
 </html>
 <h2>Ordered List</h2>
