@@ -6,7 +6,7 @@
 <body>
     <h1>Welcome to my Page</h1>
     <p>This is paragraph.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttwRhnkq0YTso2YQfIEQD-jt1F_YaCzOHGQ&s" alt="logo">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGmail_icon_%25282020%2529.svg&psig=AOvVaw3nbQoZT_bnDrmqzKhQxTAy&ust=1761206995878000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCgub-tt5ADFQAAAAAdAAAAABAJ" alt="logo">
 </body>
 </html>
 <h2>Ordered List</h2>
