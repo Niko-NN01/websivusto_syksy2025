@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <h1>My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WS04 Layout</title>
     <link rel="stylesheet" href="STYLES/style.css">
   </head>
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>This is a paragraph about me.</p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>Copyright 2025</p>
-  </footer>
   <body>
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>This is a paragraph about me.</p>
+      </section>
+
+      <section id="services">
+        <h2>Services</h2>
+        <p>Describe your services here.</p>
+      </section>
+    </main>
+
     <div class="flex-container">
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
-  </div>
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+
+    <div class="responsive-box">Resize the window to see the effect</div>
+
+    <footer>
+      <p>Copyright 2025</p>
+    </footer>
   </body>
-  <div class="grid-container">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-  </div>
-  <div class="responsive-box">Resize the window to see the effect</div>
 </html>
