@@ -11,6 +11,42 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
         <h1>Hello, world!</h1>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <div class="container">
@@ -21,10 +57,6 @@
       </div>
     </div>
     <button class="btn btn-primary">Click Me</button>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -40,13 +72,27 @@
         </ul>
       </div>
     </nav>
-    <div class="card" style="width: 18rem;">
-      <img src="path/to/image.jpg" class="card-img-top" alt="Card Image">
-      <div class="card-body">
-        <h5 class="card-title">Card Title</h5>
-        <p class="card-text">This is a simple card example using Bootstrap.</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
-      </div>
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.discordapp.com/attachments/1049415264904679434/1442841136900083822/image.jpg?ex=6926e605&is=69259485&hm=62734caefb7156b0d696b7e2c89905988b5afdc5e4a77c02e0d8cc2ef530134a&" class="d-block w-25 h-25" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.discordapp.com/attachments/1049415264904679434/1442844956795342992/IMG_2223.jpg?ex=6926e994&is=69259814&hm=2fefc6876faf4dedeb4fdeaefec7e1b99d274037a189ad09649b586d25a09e07&" class="d-block w-25 h-25" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.discordapp.com/attachments/1049415264904679434/1442846344208453662/IMG_2224.jpg?ex=6926eadf&is=6925995f&hm=c0b937f3b056eef946db4e3d1f9afbfce61a83123b0387fe216fc879f046154b&" class="d-block w-25 h-25" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </div>
     <div class="alert alert-warning" role="alert">
       This is a warning alert—check it out!
